@@ -1,12 +1,15 @@
 (function(){
-  const page = document.body.dataset.page || '';
+  const page = document.body.dataset.nav || document.body.dataset.page || '';
   const nav = [
     ['index','首页','index.html'],
     ['history','历史','history.html'],
     ['ideas','思想','ideas.html'],
     ['people','人物','people.html'],
     ['practice','实践','practice.html'],
-    ['library','文献','library.html'],
+    ['pamphlets','索引','pamphlets.html'],
+    ['genealogy','图谱','genealogy.html'],
+    ['topics','专题','palmer.html'],
+    ['search','检索','search.html'],
     ['sources','来源','sources.html']
   ];
   const header = document.querySelector('[data-site-header]');
@@ -41,8 +44,9 @@
           <div class="footer-small">独立中文研究项目，非美国 Pendle Hill 官方网站。事实性资料优先依据 Pendle Hill 官方资料与原始出版物；中文释义、主题归纳与研究导读由本站整理。最后整理：2026 年 10 月。</div>
         </div>
         <div class="footer-links">
+          <a href="pamphlets.html">Pamphlets 索引</a>
+          <a href="search.html">全文检索</a>
           <a href="sources.html">资料来源</a>
-          <a href="library.html">研究文献</a>
           <a href="https://pendlehill.org/" target="_blank" rel="noopener">Pendle Hill 官方网站 ↗</a>
         </div>
       </div>`;

@@ -9,8 +9,15 @@
 - `ideas.html` — 内在之光、Meeting、辨识、教育、心理学
 - `people.html` — 关键人物与思想网络
 - `practice.html` — work / worship / study / community、澄心会、学习聚会
-- `library.html` — 可搜索、筛选的研究文献导览
-- `sources.html` — 官方资料、核心文本与研究方法
+- `library.html` — 精选研究文献与阅读路径
+- `pamphlets.html` — Pendle Hill Pamphlets #1—#500 中英双语工作索引
+- `genealogy.html` — 思想谱系图
+- `network.html` — 人物关系图
+- `palmer.html` — Parker J. Palmer 在 Pendle Hill 的 1975—1985 十年专题
+- `psychology.html` — 宗教与心理学专题
+- `search.html` — 研究页面全文 + Pamphlet 元数据联合检索
+- `data/pamphlets.json` — 500 条可版本控制的研究数据
+- `sources.html` — 官方资料、数据来源、核心文本与研究方法
 
 ## 技术
 
@@ -19,7 +26,7 @@
 本地预览：
 
 ```bash
-cd pendle-hill-studies
+cd pendlehill
 python3 -m http.server 8080
 ```
 
@@ -34,7 +41,7 @@ python3 -m http.server 8080
 
 ## 研究与版权
 
-本站为独立中文研究项目，非 Pendle Hill 官方网站。事实性资料优先依据 Pendle Hill 官方网站与原始出版物；中文释义、主题归纳与研究导读由本站整理。受版权保护的书籍与 pamphlets 仅做摘要、短引和书目导读。
+本站为独立中文研究项目，非 Pendle Hill 官方网站。事实性资料优先依据 Pendle Hill 官方网站与原始出版物；中文释义、主题归纳与研究导读由本站整理。数据库连续收录 Pendle Hill Pamphlets #1—#500，并保留英文原题与中文工作题名；中文工作题名不是官方译名。受版权保护的书籍与 pamphlets 仅做摘要、短引和书目导读。
 
 ## 部署到 GitHub Pages
 
